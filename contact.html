@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wadea Tip Top Soles</title>
+    <link rel="stylesheet" href="../css/styles.css"> <!-- Corrected the CSS path -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="../images/Logo.jpg" alt="Company Logo"></a> <!-- Corrected the logo path -->
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="current-page">Contact</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Wishlist</a></li>
+            </ul>
+        </nav>
+        <div class="searchbar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-us">
+            <h1>Contact Us</h1>
+            <p><strong>Address:</strong> 123 Main Street, Sydney, NSW 2000, Australia</p>
+            <p><strong>Phone:</strong> +61 2 1234 5678</p>
+            <p><strong>Email:</strong> contact@clientwebsite.com</p>
+
+            <!-- Contact Form -->
+            <form action="submit_form.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Wadea Tip Top Soles</p>
+    </footer>
+</body>
+
+</html>
